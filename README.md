@@ -1,10 +1,10 @@
-# Kiddocare Flutter Snippets
+# KC Flutter Snippets
 
-Flutter code snippets with Kiddocare structure (constructors, fields, methods).
+Flutter code snippets with KC structure (constructors, fields, methods).
 
 ## Features
 
-This extension provides Flutter/Dart code snippets that follow the Kiddocare coding standards with proper structure:
+This extension provides Flutter/Dart code snippets that follow the KC coding standards with proper structure:
 
 - Organized constructor, fields, and methods sections
 - Consistent comment headers
@@ -14,8 +14,8 @@ This extension provides Flutter/Dart code snippets that follow the Kiddocare cod
 
 | Prefix | Description |
 |--------|-------------|
-| `stlsk` | StatelessWidget with Kiddocare structure |
-| `stlsfk` | StatefulWidget with Kiddocare structure |
+| `stlsk` | StatelessWidget with KC structure |
+| `stlsfk` | StatefulWidget with KC structure |
 | `stlp` | Private widget template |
 
 ## Usage

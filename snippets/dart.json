@@ -18,7 +18,7 @@
       "  ${6:// Add your methods here}",
       "}"
     ],
-    "description": "Creates a Flutter class with Kiddocare structure (constructors, fields, methods)"
+    "description": "Creates a Flutter class with KC structure (constructors, fields, methods)"
   },
   
   "Flutter Stateful Class Template": {
@@ -49,7 +49,7 @@
       "  ${6:// Add your methods here}",
       "}"
     ],
-    "description": "Creates a Flutter StatefulWidget with Kiddocare structure"
+    "description": "Creates a Flutter StatefulWidget with KC structure"
   },
 
   "Private Widget Template": {
@@ -69,6 +69,6 @@
       "  }",
       "}"
     ],
-    "description": "Creates a private Flutter widget with Kiddocare structure"
+    "description": "Creates a private Flutter widget with KC structure"
   }
 }
