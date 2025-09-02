@@ -54,3 +54,4 @@ Install from VS Code Extensions Marketplace or manually install the .vsix file.
 ## License
 
 MIT
+# snippets
