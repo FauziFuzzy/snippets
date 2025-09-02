@@ -1,0 +1,29 @@
+{
+  "name": "kc-flutter-snippets",
+  "displayName": "KC Flutter Snippets",
+  "description": "Flutter code snippets with kc structure (constructors, fields, methods)",
+  "version": "0.0.1",
+  "publisher": "kc",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "kc"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/dart.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiddocaremy/kiddocare-flutter-snippets"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,74 @@
+{
+  "Flutter Class Template": {
+    "prefix": "stlsk",
+    "body": [
+      "class ${1:ClassName} extends ${2:StatelessWidget} {",
+      "  // ------------------------------- CONSTRUCTORS ------------------------------",
+      "  const ${1:ClassName}({${3:super.key}});",
+      "",
+      "  // ------------------------------- FIELDS ------------------------------------",
+      "  ${4:// Add your fields here}",
+      "",
+      "  // --------------------------------- METHODS ---------------------------------",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return ${5:Container()};",
+      "  }",
+      "",
+      "  ${6:// Add your methods here}",
+      "}"
+    ],
+    "description": "Creates a Flutter class with Kiddocare structure (constructors, fields, methods)"
+  },
+  
+  "Flutter Stateful Class Template": {
+    "prefix": "stlsfk",
+    "body": [
+      "class ${1:ClassName} extends StatefulWidget {",
+      "  // ------------------------------- CONSTRUCTORS ------------------------------",
+      "  const ${1:ClassName}({${2:super.key}});",
+      "",
+      "  // ------------------------------- FIELDS ------------------------------------",
+      "  ${3:// Add your fields here}",
+      "",
+      "  // --------------------------------- METHODS ---------------------------------",
+      "  @override",
+      "  State<${1:ClassName}> createState() => _${1:ClassName}State();",
+      "}",
+      "",
+      "class _${1:ClassName}State extends State<${1:ClassName}> {",
+      "  // ------------------------------- FIELDS ------------------------------------",
+      "  ${4:// Add your state fields here}",
+      "",
+      "  // --------------------------------- METHODS ---------------------------------",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return ${5:Container()};",
+      "  }",
+      "",
+      "  ${6:// Add your methods here}",
+      "}"
+    ],
+    "description": "Creates a Flutter StatefulWidget with Kiddocare structure"
+  },
+
+  "Private Widget Template": {
+    "prefix": "stlp",
+    "body": [
+      "class _${1:WidgetName} extends StatelessWidget {",
+      "  // ------------------------------- CONSTRUCTORS ------------------------------",
+      "  const _${1:WidgetName}({${2:required this.field}});",
+      "",
+      "  // ------------------------------- FIELDS ------------------------------------",
+      "  final ${3:String} ${4:field};",
+      "",
+      "  // --------------------------------- METHODS ---------------------------------",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return ${5:Container()};",
+      "  }",
+      "}"
+    ],
+    "description": "Creates a private Flutter widget with Kiddocare structure"
+  }
+}
